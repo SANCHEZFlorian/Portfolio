@@ -1,0 +1,142 @@
+body {
+    background-color: #fff;
+    font-family: sans-serif;
+}
+
+h1,
+p {
+    color: #000;
+}
+
+header {
+    width: 100%;
+    height: 142px;
+    background-color: grey;
+    padding-top: 20px;
+}
+
+.menu {
+    background-color: #031538;
+    color: #fff;
+    width: 98%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 2%;
+    text-shadow: 1px 1px 5px red;
+    box-shadow: 1px 1px 5px white;
+}
+
+.menu,
+.contenu_gauche,
+.image,
+.detail_image {
+    border-radius: 1% / 5px;
+}
+
+ul li:hover {
+    color: red;
+    text-shadow: 2px 2px 5px white;
+}
+
+.titre,
+main,
+.zone_footer {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titre {
+    display: grid;
+    grid-template-columns: 130px 2fr 3fr;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 124px;
+    height: 124px;
+    background-color: red;
+    border-radius: 100%;
+}
+
+.logo:active {
+    background-color: blue;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h1:hover {
+    text-decoration: underline;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr;
+}
+
+main {
+    background-color: grey;
+    margin-top: 20px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 5px;
+}
+
+.contenu_gauche {
+    background-color: red;
+    margin-right: 2%;
+}
+
+.contenu_gauche p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.image {
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+}
+
+.detail_image {
+    margin-top: 5px;
+    background-color: black;
+    font-size: 0.8em;
+    line-height: 1.2em;
+    padding: 2px;
+}
+
+.detail_image p {
+    color: white;
+}
+
+footer {
+    width: 100%;
+    background-color: gray;
+    position: absolute;
+    bottom: 0;
+    padding: 5px;
+}
+
+.bas {
+    float: left;
+    width: 15%;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+}
+
+.bas li {
+    line-height: 1.5em;
+}
+
+footer .logo {
+    margin: auto;
+}
