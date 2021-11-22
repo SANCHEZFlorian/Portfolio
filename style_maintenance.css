@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    color: #454845;
+    font-weight: 700;
+    font-family: 'Montserrat', 'Helvetica', sans-serif;
+    font-size: 2rem;
+}
+
+.enConstruction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    background-color: rgba(220, 220, 235, 0.5);
+    border-radius: 7px;
+    transition: all ease-in-out 0.5s;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+h1:hover {
+    background-color: rgba(220, 220, 235, 0.7);
+    transition: all ease 0.3s;
+}
