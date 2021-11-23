@@ -1,28 +1,65 @@
-* {
+body {
+    font-family: 'Montserrat', 'Helvetica', sans-serif;
+}
+
+nav {
+    background-color: rgba(222, 222, 243, 0.7);
+
+    border-radius: 7px;
+    transition: all ease-in-out 0.5s;
+    margin-top: 2rem;
+    padding: 1.5rem;
     box-sizing: border-box;
     color: #454845;
-    font-weight: 700;
-    font-family: 'Montserrat', 'Helvetica', sans-serif;
     font-size: 2rem;
 }
 
-.enConstruction {
+nav nav {
+    background-color: rgba(220, 220, 235, 0.5);
+}
+
+.box {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    width: 100%;
+
 }
 
 h1 {
-    background-color: rgba(220, 220, 235, 0.5);
-    border-radius: 7px;
-    transition: all ease-in-out 0.5s;
-    margin-top: 2rem;
-    padding: 1rem;
+    font-weight: bold;
+    font-family: 'Montserrat', 'Helvetica', sans-serif;
+    font-size: 5rem;
+
+
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 h1:hover {
     background-color: rgba(220, 220, 235, 0.7);
     transition: all ease 0.3s;
+}
+
+h2, i {
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+i, a {
+    font-size: 1.5rem;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: blue;
 }
